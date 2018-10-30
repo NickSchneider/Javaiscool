@@ -1,6 +1,6 @@
 package poly;
 
-public class Animal 
+public abstract class Animal 
 {
     int age;
     String color;
@@ -17,8 +17,5 @@ public class Animal
         System.out.printf("I am %d and my color is %s\n", age, color);
     }
     
-    public void speak()
-    {
-        System.out.println("I have no idea what to say");
-    }
+    public abstract void speak();
 }
